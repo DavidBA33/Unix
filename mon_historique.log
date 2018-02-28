@@ -1,0 +1,108 @@
+1  ls
+    2  cd Music
+    3  ls
+    4  cd
+    5  cd picture
+    6  ls
+    7  cd Pictures
+    8  grep jpg
+    9  ls
+   10  cd Pictures
+   11  wc -l
+   12  cd Documents
+   13  cd Unix
+   14  cd clmystery-master
+   15  more hint1
+   16  more hint2
+   17  more hint1
+   18  cd /Documents/Unix
+   19  cd Documents
+   20  cd Unix
+   21  more instructions
+   22  cd clmystery-master
+   23  cd mystery
+   24  more crimescene
+   25  cd Documents
+   26  grep -E CLUE crimescene
+   27  grep -E"CLUE" crimescene
+   28  cd Unix
+   29  cd
+   30  cd Documents
+   31  cd Unix
+   32  cat hint1
+   33  cd clmystery/mystery
+   34  cd clmystery-master
+   35  cd mystery
+   36  more cheatsheet.md
+   37  more cheatsheet
+   38  cat hint1 hint2 hint3 hint4 hint5 hint6 hint6 hint 7 hint8
+   39  cat 'hint1' hint2'
+   40  more hint1
+   41  more hint2
+   42  more hint3
+   43  more hint4
+   44  cd interviews
+   45  cd
+   46  q
+   47  cd Documents
+   48  cd Unix
+   49  cd instructions
+   50  more instructions
+   51  cd Documents
+   52  grep CLUE crimescene
+   53  more hint1
+   54  head -n 20 people
+   55  more hint2
+   56  head -n 30 people
+   57  more hint3
+   58  head -n 20 vehicles
+   59  grep Annabel people
+   60  grep Annabel vehicles
+   61  more hint3
+   62  hint4
+   63  more hint4
+   64  more hint5
+   65  head -n173 Mattapan_Street | tail -n 1
+   66  more interview 9437737
+   67  cd interviews
+   68  more interview-9437737
+   69  cd Unix
+   70  cd
+   71  cd Documents
+   72  cd Unix
+   73  more interview-9437737
+   74  head -n 40 Hart_Place | tail -n 1
+   75  cd interviews
+   76  more interview-47246024
+   77  head -n 179 Buckingham_Place | tail -n 1
+   78  cd Unix
+   79  cd Doculents
+   80  cd Documents
+   81  cd Unix
+   82  head -n 179 Buckingham_Place | tail -n 1
+   83  cd
+   84  cd Documents
+   85  cd Unix
+   86  head -n 179 Buckingham_Place | tail -n 1
+   87  cd interviews
+   88  more interview-699607
+   89  cd
+   90  cd Documents
+   91  more hint6
+   92  cd Unix
+   93  more hint6
+   94  grep "L337" vehicles
+   95  grep "Honda" vehicles
+   96  grep "Blue" vehicles
+   97  more hint7
+   98  grep -A 5 "L337" "Honda" "Blue" vehicles
+   99  more hint6
+  100  more hint7
+  101  more hint8
+  102  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jacqui Maher"
+  103  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska"
+  104  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+  105  grep "Jeremy Bowers" vehicles
+  106  cd 
+  107  echo Jacqui Maher
+  108  history > mon_historique.log
