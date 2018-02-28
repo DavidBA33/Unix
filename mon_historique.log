@@ -46,63 +46,76 @@
    46  q
    47  cd Documents
    48  cd Unix
-   49  cd instructions
-   50  more instructions
-   51  cd Documents
-   52  grep CLUE crimescene
-   53  more hint1
-   54  head -n 20 people
-   55  more hint2
-   56  head -n 30 people
-   57  more hint3
-   58  head -n 20 vehicles
+   49  more instructions
+   50  more hint1
+   51  head -n people
+   52  head -n 20 people
+   53  more hint2
+   54  grep "CLUE" crimescene
+   55  more hint3
+   56  head people
+   57  head -n 20 people
+   58   head -n 40 people
    59  grep Annabel people
    60  grep Annabel vehicles
-   61  more hint3
-   62  hint4
+   61  grep Annabel people
+   62  more hint3
    63  more hint4
    64  more hint5
-   65  head -n173 Mattapan_Street | tail -n 1
-   66  more interview 9437737
-   67  cd interviews
-   68  more interview-9437737
-   69  cd Unix
-   70  cd
-   71  cd Documents
-   72  cd Unix
-   73  more interview-9437737
-   74  head -n 40 Hart_Place | tail -n 1
-   75  cd interviews
-   76  more interview-47246024
-   77  head -n 179 Buckingham_Place | tail -n 1
-   78  cd Unix
-   79  cd Doculents
+   65  head -n 40 Hart_Place | tail -n 1
+   66  cd interviews
+   67  more interview-47246024
+   68  cd
+   69  cd Documents
+   70  cd Unix
+   71  head -n 173 Mattapan_Street | tail -n 1
+   72  /interviews/interview-9437737
+   73  cd interviews
+   74  interview-9437737
+   75  cd Documents
+   76  cd Unix
+   77  more interview-9437737
+   78  cd Documents
+   79  cd
    80  cd Documents
    81  cd Unix
-   82  head -n 179 Buckingham_Place | tail -n 1
-   83  cd
-   84  cd Documents
-   85  cd Unix
-   86  head -n 179 Buckingham_Place | tail -n 1
-   87  cd interviews
-   88  more interview-699607
-   89  cd
-   90  cd Documents
-   91  more hint6
-   92  cd Unix
-   93  more hint6
-   94  grep "L337" vehicles
-   95  grep "Honda" vehicles
-   96  grep "Blue" vehicles
-   97  more hint7
-   98  grep -A 5 "L337" "Honda" "Blue" vehicles
+   82  more interview-9437737
+   83  head -n 179 Buckingham_Place | tail -n 1
+   84  cd interviews
+   85  more interview-699607
+   86  cd
+   87  cd Documents
+   88  cd Unix
+   89  head -n 176 Haley_Street | tail -n 1
+   90  cd interviews
+   91  more interview-871877
+   92  cd
+   93  cd Documents
+   94  cd Unix
+   95  hint3
+   96  more hint3
+   97  more hint4
+   98  more hint5
    99  more hint6
-  100  more hint7
-  101  more hint8
-  102  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jacqui Maher"
-  103  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska"
-  104  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
-  105  grep "Jeremy Bowers" vehicles
-  106  cd 
-  107  echo Jacqui Maher
-  108  history > mon_historique.log
+  100  grep "Honda3 vehicles
+cd
+q
+  101  grep "Honda" Vehicles
+  102  grep "Blue" vehicles
+  103  more hint6
+  104  more hint7
+  105  grep -A "L337" vehicles
+  106  grep -A 5 "L337" vehicles
+  107  more hint7
+  108  more hint8
+  109  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Erika Owens"
+  110  grep "Jacqui Maher" people
+  111  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Joe Germuska"
+  112  cat AAA Delta_SkyMiles Museum_Of_Bash_History Terrminal_City_Library | grep -c "Jeremy Borowers"
+  113  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | grep -c "Jeremy Bowers"
+  114  cd
+  115  echo Jeremy Bowers
+  116  history mon_historique.log
+  117  history
+
+  
